@@ -411,7 +411,7 @@ export default function WealthComplianceLanding() {
                   className="px-6 py-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-medium text-sm sm:text-base transition-all flex items-center justify-center gap-2"
                 >
                   <Mail className="w-5 h-5 text-amber-400" />
-                  <span>Inquire via Email</span>
+                  <span>Email</span>
                 </a>
               </div>
             </div>
