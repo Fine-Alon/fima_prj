@@ -958,7 +958,8 @@ export default function LawyerLandingPage() {
       <footer className="py-10 bg-slate-950 border-t border-white/10 text-slate-400 text-xs sm:text-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            © {new Date().getFullYear()} Юридическая практика «[Имя Фамилия]». Все права
+           © 2026 Юридическая практика «[Имя Фамилия]». Все права
+            {/* © {new Date().getFullYear()} Юридическая практика «[Имя Фамилия]». Все права */}
             защищены.
           </div>
           <div className="text-slate-500">
