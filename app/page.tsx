@@ -6,6 +6,7 @@ import {
   Award,
   ArrowRight,
   MessageCircle,
+  Send,
   Mail,
   CheckCircle2,
   ChevronDown,
@@ -23,8 +24,9 @@ import {
 
 // --- CONTACT LINKS (Replace with Efim's actual WhatsApp number and Email) ---
 const WHATSAPP_URL =
-  "https://wa.me/972500000000?text=Hello%20Efim,%20I%20would%20like%20to%20request%20a%20confidential%20consultation.";
-const EMAIL_ADDRESS = "mailto:contact@efimliberman.com";
+  "https://wa.me/972552924282?text=Hello%20Efim,%20I%20would%20like%20to%20request%20a%20confidential%20consultation.";
+const EMAIL_ADDRESS = "mailto:lazarhasid@gmail.com";
+const TELEGRAM_URL = "https://t.me/tir9999999?text=Hello%20Efim,%20I%20would%20like%20to%20request%20a%20confidential%20consultation.";
 
 const STATS = [
   {
@@ -241,8 +243,20 @@ export default function WealthComplianceLanding() {
             </a>
           </nav>
 
-          {/* Header CTA */}
+         {/* Header CTA */}
           <div className="hidden md:flex items-center gap-3">
+            {/* Вставь этот блок (после строки 256): */}
+            <a
+              href={TELEGRAM_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="px-3.5 py-2.5 rounded-lg bg-sky-500/15 hover:bg-sky-500/25 border border-sky-500/30 text-sky-300 font-semibold text-sm transition-all flex items-center gap-2"
+              title="Contact on Telegram"
+            >
+              <Send className="w-4 h-4 text-sky-400" />
+              <span>Telegram</span>
+            </a>
+
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -311,6 +325,15 @@ export default function WealthComplianceLanding() {
               >
                 Request a Confidential Consultation
               </a>
+              <a
+                href={TELEGRAM_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="w-full py-3 rounded-lg bg-sky-500/15 border border-sky-500/30 text-sky-300 font-semibold text-center flex items-center justify-center gap-2"
+              >
+                <Send className="w-4 h-4 text-sky-400" />
+                <span>Message on Telegram</span>
+              </a>
             </div>
           </div>
         )}
@@ -374,7 +397,15 @@ export default function WealthComplianceLanding() {
                   <span>Request a Confidential Consultation</span>
                   <ArrowRight className="w-4 h-4 ml-1 shrink-0" />
                 </a>
-
+                <a
+                  href={TELEGRAM_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-6 py-4 rounded-xl bg-sky-500/15 hover:bg-sky-500/25 border border-sky-500/30 text-sky-300 font-semibold text-sm sm:text-base transition-all flex items-center justify-center gap-2"
+                >
+                  <Send className="w-5 h-5 text-sky-400" />
+                  <span>Telegram</span>
+                </a>
                 <a
                   href="#contact"
                   className="px-6 py-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-medium text-sm sm:text-base transition-all flex items-center justify-center gap-2"
@@ -849,8 +880,9 @@ export default function WealthComplianceLanding() {
                   Let&apos;s discuss your case
                 </h2>
                 <p className="text-slate-300 text-base leading-relaxed pt-2">
-                  Reach out directly via WhatsApp or Email to schedule a private
-                  consultation, or submit your inquiry through the confidential form.
+                  Reach out directly via WhatsApp, Telegram, or Email to schedule a
+                  private consultation, or submit your inquiry through the confidential
+                  form.
                 </p>
               </div>
 
@@ -872,7 +904,23 @@ export default function WealthComplianceLanding() {
                   </div>
                   <ArrowRight className="w-5 h-5 text-emerald-400 group-hover:translate-x-1 transition-transform" />
                 </a>
-
+                <a
+                  href={TELEGRAM_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center justify-between p-5 rounded-xl bg-sky-500/15 hover:bg-sky-500/25 border border-sky-500/30 text-white font-semibold transition-all group"
+                >
+                  <div className="flex items-center gap-3.5">
+                    <Send className="w-6 h-6 text-sky-400" />
+                    <div>
+                      <span className="block text-base">Telegram</span>
+                      <span className="block text-xs text-sky-300 font-normal">
+                        Direct encrypted message via Telegram
+                      </span>
+                    </div>
+                  </div>
+                  <ArrowRight className="w-5 h-5 text-sky-400 group-hover:translate-x-1 transition-transform" />
+                </a>
                 <a
                   href={EMAIL_ADDRESS}
                   className="flex items-center justify-between p-5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-semibold transition-all group"
@@ -954,12 +1002,12 @@ export default function WealthComplianceLanding() {
 
                       <div>
                         <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-2">
-                          WhatsApp / Phone / Email *
+                          WhatsApp / Telegram / Email *
                         </label>
                         <input
                           type="text"
                           required
-                          placeholder="+972 ... or email@domain.com"
+                          placeholder="+972 ... / @username / email"
                           value={formData.contact}
                           onChange={(e) =>
                             setFormData({ ...formData, contact: e.target.value })
