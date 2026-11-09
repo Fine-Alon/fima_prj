@@ -21,7 +21,7 @@ import {
   X,
 } from "lucide-react";
 
-// --- КОНТАКТНЫЕ ССЫЛКИ (Замени на реальный номер и почту Ефима) ---
+// --- CONTACT LINKS (Replace with Efim's actual WhatsApp number and Email) ---
 const WHATSAPP_URL =
   "https://wa.me/972500000000?text=Hello%20Efim,%20I%20would%20like%20to%20request%20a%20confidential%20consultation.";
 const EMAIL_ADDRESS = "mailto:contact@efimliberman.com";
@@ -30,22 +30,22 @@ const STATS = [
   {
     value: "17+ Years",
     label: "Executive experience in Wealth Compliance",
-    sub: "Опыт руководящей работы в сфере комплаенса",
+    sub: "Deep expertise in banking risk management",
   },
   {
     value: "Tier-1 Banks",
     label: "Successful onboarding & SoW clearance",
-    sub: "Банки первого уровня в Израиле, Европе и США",
+    sub: "Leading financial institutions worldwide",
   },
   {
-    value: "4 Regions",
+    value: "4 Key Regions",
     label: "Israel • Europe • US • CIS",
-    sub: "Международная трансграничная экспертиза",
+    sub: "Cross-border regulatory navigation",
   },
   {
     value: "100%",
     label: "Absolute Discretion & Strict NDA",
-    sub: "Полная конфиденциальность данных и активов",
+    sub: "Uncompromising client privacy",
   },
 ];
 
@@ -53,46 +53,37 @@ const SERVICES = [
   {
     icon: SearchCheck,
     tag: "Pre-Banking Audit",
-    titleEn: "Source of Wealth Audit",
-    titleRu: "Аудит происхождения средств",
-    descEn:
+    title: "Source of Wealth Audit",
+    description:
       "Forensic review of your financial history to identify potential red flags before the bank does.",
-    descRu:
-      "Криминалистическая проверка вашей финансовой истории для выявления потенциальных «красных флагов» до того, как это сделает банк.",
     bullets: [
-      "Глубокий ретроспективный аудит цепочки формирования капитала",
-      "Выявление триггеров риска для банковских подразделений AML / KYC",
-      "План устранения пробелов в документах до подачи в банк",
+      "Retrospective audit of historical capital accumulation",
+      "Early detection of AML, KYC, and regulatory risk triggers",
+      "Actionable remediation plan prior to bank submission",
     ],
   },
   {
     icon: FileText,
     tag: "Bank-Ready Narrative",
-    titleEn: "Compliance Dossier Preparation",
-    titleRu: "Подготовка комплаенс-досье для банков",
-    descEn:
+    title: "Compliance Dossier Preparation",
+    description:
       "Structuring your documents into a flawless, defensible narrative that speaks the bank's language.",
-    descRu:
-      "Структурирование ваших документов в безупречный, защитимый нарратив, который говорит на языке банка.",
     bullets: [
-      "Формирование полного пакета подтверждающих документов (SoW / SoF)",
-      "Написание профессионального Compliance Memo для офицеров банка",
-      "Прозрачное обоснование сложных активов, дивидендов и сделок",
+      "Comprehensive compilation of evidentiary SoW / SoF documentation",
+      "Executive Compliance Memorandums tailored for bank risk committees",
+      "Clear substantiation of business exits, dividends, and asset sales",
     ],
   },
   {
     icon: Globe,
     tag: "Global Structuring",
-    titleEn: "Cross-Border Advisory",
-    titleRu: "Консультирование по международным сделкам и структурам",
-    descEn:
+    title: "Cross-Border Advisory",
+    description:
       "Strategic guidance on structuring international assets and preparing for Tier-1 bank onboarding.",
-    descRu:
-      "Стратегическое руководство по структурированию международных активов и подготовке к онбордингу в банках первого уровня.",
     bullets: [
-      "Подготовка HNWI и семейных офисов (Family Offices) к открытию счетов",
-      "Сопровождение крупных трансграничных переводов капитала",
-      "Структурирование международных активов (Israel, Europe, US, CIS)",
+      "Pre-onboarding preparation for HNWIs and Family Offices",
+      "Compliance clearance for high-value cross-border capital transfers",
+      "Multi-jurisdictional alignment across Israel, Europe, the US, and CIS",
     ],
   },
 ];
@@ -102,43 +93,43 @@ const CASES = [
     id: 1,
     category: "Source of Wealth",
     title:
-      "Подтверждение многолетнего капитала после продажи бизнеса и инвестиций для Tier-1 банка",
-    amount: "Капитал: $6.5M",
-    duration: "Срок: 5 недель",
+      "Multi-Jurisdictional Source of Wealth Substantiation Following a Business Exit",
+    amount: "Capital: $6.5M",
+    duration: "Timeline: 5 Weeks",
     problem:
-      "Клиент столкнулся с многомесячной задержкой KYC при переводе личного капитала между юрисдикциями: исторические документы за 12 лет были разрознены и вызывали вопросы у комплаенс-контроля.",
+      "An HNWI client faced a prolonged KYC hold when transferring liquidity across borders due to fragmented historical corporate and tax records spanning over a decade.",
     solution:
-      "Провели полный Source of Wealth Audit, восстановили корпоративную и налоговую хронологию, подготовили защитимое Compliance Dossier на языке банковских стандартов риска.",
+      "Conducted a forensic Source of Wealth Audit, reconstructed the corporate paper trail, and prepared a comprehensive Compliance Dossier aligned with Tier-1 banking standards.",
     result:
-      "Проверка успешно пройдена без дополнительных запросов. Счёт открыт, средства зачислены в полном объёме.",
+      "Full compliance clearance achieved with zero additional inquiries; account opened and funds credited in full.",
   },
   {
     id: 2,
     category: "Tier-1 Onboarding",
     title:
-      "Онбординг семейного офиса (Family Office) со сложной международной структурой активов",
-    amount: "Активы: $18M+",
-    duration: "Срок: 7 недель",
+      "Family Office Onboarding Across European and Israeli Tier-1 Institutions",
+    amount: "Assets: $18M+",
+    duration: "Timeline: 7 Weeks",
     problem:
-      "Необходимость пройти строгий пре-комплаенс в банках первого уровня Европы и Израиля при наличии активов в нескольких юрисдикциях (недвижимость, корпоративные доли, инвестиционные портфели).",
+      "A Family Office with complex multi-jurisdictional holdings (real estate, private equity, and corporate structures) needed seamless onboarding at top-tier private banks.",
     solution:
-      "Выстроили прозрачную карту владения и движения капитала, устранили потенциальные красные флаги и подготовили полное досье для банковских комитетов.",
+      "Mapped the entire ownership and cash-flow architecture, eliminated potential compliance red flags in advance, and delivered a defensible executive narrative.",
     result:
-      "Успешный онбординг в двух Tier-1 банках с первой подачи без заморозок и регуляторных задержек.",
+      "Successfully onboarded with two Tier-1 private banks on the first submission without delays.",
   },
   {
     id: 3,
     category: "Cross-Border",
     title:
-      "Разблокировка трансграничного перевода для покупки недвижимости в Tel Aviv, Israel",
-    amount: "Транзакция: $2.4M",
-    duration: "Срок: 3 недели",
+      "Unfreezing a High-Value Cross-Border Liquidity Transfer in Tel Aviv, Israel",
+    amount: "Transaction: $2.4M",
+    duration: "Timeline: 3 Weeks",
     problem:
-      "Банк приостановил крупный международный перевод из-за недостаточного объяснения экономической логики и структуры транзитных счетов.",
+      "A major cross-border transfer for a real estate acquisition was frozen by the receiving bank's compliance department due to an unclear intermediary account trail.",
     solution:
-      "Оперативно структурировали цепочку документов, подготовили официальное комплаенс-заключение (SoW / SoF Narrative) и выстроили прозрачную коммуникацию по требованиям регулятора.",
+      "Restructured the evidentiary documentation package, drafted a formal Source of Funds & Wealth opinion, and addressed all regulatory risk triggers.",
     result:
-      "Перевод разблокирован и акцептован принимающим банком в Израиле, сделка закрыта в срок.",
+      "Transfer cleared and accepted by the Israeli bank, allowing the client to close the acquisition on schedule.",
   },
 ];
 
@@ -146,52 +137,51 @@ const STEPS = [
   {
     num: "01",
     title: "Confidential Briefing",
-    subtitle: "Конфиденциальный брифинг",
-    desc: "Обсуждаем вашу задачу, географию капитала и целевые банки. Определяем периметр проверки в условиях строгой конфиденциальности.",
+    subtitle: "Initial Case Assessment",
+    desc: "We review your objectives, capital geography, and target banking institutions under strict confidentiality.",
   },
   {
     num: "02",
     title: "Forensic SoW Audit",
-    subtitle: "Аудит и поиск «красных флагов»",
-    desc: "Анализируем вашу финансовую историю глазами банковского риск-менеджера и выявляем слабые места в документах до подачи в банк.",
+    subtitle: "Red-Flag Identification",
+    desc: "We examine your financial history through the lens of a Tier-1 bank risk officer to uncover documentation gaps early.",
   },
   {
     num: "03",
     title: "Dossier Architecture",
-    subtitle: "Сборка комплаенс-досье",
-    desc: "Формируем безупречно структурированный пакет документов и Compliance Memo, отвечающий стандартам Tier-1 банков.",
+    subtitle: "Narrative & Structuring",
+    desc: "We assemble a seamless, bank-ready Compliance Dossier and executive memorandum that substantiate every milestone of your wealth.",
   },
   {
     num: "04",
     title: "Bank Onboarding & Clearance",
-    subtitle: "Прохождение комплаенса",
-    desc: "Сопровождаем процесс прохождения KYC/SoW и трансграничного движения средств до успешного завершения процедуры.",
+    subtitle: "Strategic Execution",
+    desc: "We guide you through the KYC/SoW review and cross-border transfer process until successful clearance.",
   },
 ];
 
 const FAQS = [
   {
-    q: "Почему банки первого уровня (Tier-1) задерживают переводы или отказывают даже при легальном капитале?",
-    a: "Банки не отвергают само богатство — они отвергают фрагментированные бумажные следы. Даже 100% легальный капитал вызывает блокировку или многомесячный KYC, если история его происхождения подана разрозненно и не переведена на язык банковских стандартов управления рисками.",
+    q: "Why do Tier-1 banks delay transfers or reject completely legitimate wealth?",
+    a: "Banks do not reject legitimate wealth—they reject fragmented paper trails. Even 100% lawful capital can trigger an account freeze or months of KYC delays if the historical documentation is disorganized or fails to meet the strict internal risk framework of the compliance committee.",
   },
   {
-    q: "Зачем проходить Pre-Banking Compliance до обращения в банк?",
-    a: "Любой отказ или заморозка в крупном банке оставляет след во внутренних системах мониторинга. Предварительный аудит (Source of Wealth Audit) позволяет выявить и закрыть все потенциальные «красные флаги» заранее, чтобы зайти в банк с безупречным досье с первого раза.",
+    q: "Why is Pre-Banking Compliance critical before approaching a bank?",
+    a: "A compliance rejection or frozen transfer leaves a permanent mark in institutional risk databases. Conducting a forensic Source of Wealth Audit beforehand allows us to identify and resolve every potential red flag in advance, ensuring a smooth, first-time approval.",
   },
   {
-    q: "С какими регионами и юрисдикциями вы работаете?",
-    a: "Я базируюсь в Tel Aviv, Israel и специализируюсь на работе с клиентами и капиталом в Израиле, Европе, США и регионе СНГ (Israel, Europe, the US, and the CIS region).",
+    q: "Which regions and jurisdictions do you cover?",
+    a: "Based in Tel Aviv, Israel, I advise clients globally with a core focus on bridging capital and regulatory requirements across Israel, Europe, the US, and the CIS region.",
   },
   {
-    q: "Как обеспечивается конфиденциальность моих финансовых данных?",
-    a: "Абсолютная конфиденциальность (Absolute Discretion) — фундамент моей практики. Все консультации и аудит документов проводятся с соблюдением строжайших стандартов защиты информации и подписанием NDA.",
+    q: "How do you protect the privacy of my financial records?",
+    a: "Absolute discretion is the cornerstone of my advisory practice. Every consultation, document review, and strategic briefing is conducted personally under strict confidentiality and Non-Disclosure Agreements (NDA).",
   },
 ];
 
 export default function WealthComplianceLanding() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [lang, setLang] = useState<"bilingual" | "en">("bilingual");
-  const [activeCategory, setActiveCategory] = useState("Все");
+  const [activeCategory, setActiveCategory] = useState("All");
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [formData, setFormData] = useState({
@@ -201,9 +191,9 @@ export default function WealthComplianceLanding() {
     message: "",
   });
 
-  const categories = ["Все", "Source of Wealth", "Tier-1 Onboarding", "Cross-Border"];
+  const categories = ["All", "Source of Wealth", "Tier-1 Onboarding", "Cross-Border"];
   const filteredCases =
-    activeCategory === "Все"
+    activeCategory === "All"
       ? CASES
       : CASES.filter((c) => c.category === activeCategory);
 
@@ -214,10 +204,10 @@ export default function WealthComplianceLanding() {
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-amber-500 selection:text-slate-950 scroll-smooth">
-      {/* ================= НАВИГАЦИЯ (HEADER) ================= */}
+      {/* ================= HEADER / NAVIGATION ================= */}
       <header className="fixed top-0 inset-x-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-          {/* Логотип / Имя и специализация */}
+          {/* Brand / Name */}
           <a href="#" className="flex items-center gap-3.5 group">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-slate-950 shadow-lg shadow-amber-500/20 shrink-0">
               <Landmark className="w-5 h-5 stroke-[2.2]" />
@@ -232,16 +222,16 @@ export default function WealthComplianceLanding() {
             </div>
           </a>
 
-          {/* Десктоп-меню */}
-          <nav className="hidden lg:flex items-center gap-7 text-sm text-slate-300">
+          {/* Desktop Nav */}
+          <nav className="hidden lg:flex items-center gap-8 text-sm text-slate-300">
             <a href="#problem" className="hover:text-amber-400 transition-colors">
-              {lang === "en" ? "Why Banks Freeze" : "Проблема"}
+              Why Banks Freeze
             </a>
             <a href="#expertise" className="hover:text-amber-400 transition-colors">
               Our Expertise
             </a>
             <a href="#cases" className="hover:text-amber-400 transition-colors">
-              {lang === "en" ? "Case Studies" : "Кейсы"}
+              Case Studies
             </a>
             <a href="#about" className="hover:text-amber-400 transition-colors">
               About Efim
@@ -251,16 +241,8 @@ export default function WealthComplianceLanding() {
             </a>
           </nav>
 
-          {/* Переключатель языка + Кнопка в шапке */}
+          {/* Header CTA */}
           <div className="hidden md:flex items-center gap-3">
-            <button
-              onClick={() => setLang(lang === "bilingual" ? "en" : "bilingual")}
-              className="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-slate-300 transition-colors"
-              title="Переключить режим отображения языка"
-            >
-              {lang === "bilingual" ? "EN / RU" : "EN Only"}
-            </button>
-
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -268,21 +250,21 @@ export default function WealthComplianceLanding() {
               className="px-4 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold text-sm transition-all shadow-lg shadow-amber-500/20 flex items-center gap-2"
             >
               <MessageCircle className="w-4 h-4" />
-              <span>WhatsApp</span>
+              <span>Request Consultation</span>
             </a>
           </div>
 
-          {/* Мобильный бургер */}
+          {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden p-2 text-slate-300 hover:text-white"
-            aria-label="Меню"
+            aria-label="Toggle Menu"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 
-        {/* Мобильное меню */}
+        {/* Mobile Dropdown Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden bg-slate-950 border-b border-white/10 px-4 pt-3 pb-6 space-y-3">
             <a
@@ -297,14 +279,14 @@ export default function WealthComplianceLanding() {
               onClick={() => setMobileMenuOpen(false)}
               className="block py-2 text-slate-200 hover:text-amber-400"
             >
-              Our Expertise (Услуги)
+              Our Expertise
             </a>
             <a
               href="#cases"
               onClick={() => setMobileMenuOpen(false)}
               className="block py-2 text-slate-200 hover:text-amber-400"
             >
-              Кейсы и практика
+              Case Studies
             </a>
             <a
               href="#about"
@@ -312,6 +294,13 @@ export default function WealthComplianceLanding() {
               className="block py-2 text-slate-200 hover:text-amber-400"
             >
               About Efim Liberman
+            </a>
+            <a
+              href="#faq"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block py-2 text-slate-200 hover:text-amber-400"
+            >
+              FAQ
             </a>
             <div className="pt-3 border-t border-white/10 flex flex-col gap-3">
               <a
@@ -327,49 +316,33 @@ export default function WealthComplianceLanding() {
         )}
       </header>
 
-      {/* ================= БЛОК 1. ГЛАВНЫЙ ЭКРАН (HERO SECTION) ================= */}
+      {/* ================= BLOCK 1. HERO SECTION ================= */}
       <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-slate-950 text-white overflow-hidden">
-        {/* Фоновое свечение */}
+        {/* Background Ambient Glow */}
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[750px] h-[420px] bg-amber-500/10 blur-[140px] rounded-full pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-12 gap-12 lg:gap-10 items-center">
-            {/* Левая колонка: Текст и оффер */}
+            {/* Left Column: Offer & Value Proposition */}
             <div className="lg:col-span-7 space-y-7">
               <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/5 border border-amber-500/30 text-amber-400 text-xs sm:text-sm font-semibold tracking-wide">
                 <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
                 <span>Private Wealth & Compliance Advisory</span>
               </div>
 
-              <div className="space-y-4">
-                <h1 className="text-3xl sm:text-5xl lg:text-[54px] font-bold tracking-tight leading-[1.12]">
-                  Pre-Banking Compliance{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500">
-                    for Global Wealth
-                  </span>
-                </h1>
+              <h1 className="text-3xl sm:text-5xl lg:text-[56px] font-bold tracking-tight leading-[1.12]">
+                Pre-Banking Compliance{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500">
+                  for Global Wealth
+                </span>
+              </h1>
 
-                {lang === "bilingual" && (
-                  <p className="text-amber-400/90 text-base sm:text-lg font-medium">
-                    Предбанковский комплаенс и структурирование глобального капитала
-                  </p>
-                )}
-              </div>
+              <p className="text-slate-300 text-base sm:text-xl leading-relaxed max-w-2xl font-normal">
+                Helping HNWIs and Family Offices navigate Source of Wealth checks
+                with Tier-1 banks worldwide.
+              </p>
 
-              <div className="space-y-3 max-w-2xl">
-                <p className="text-slate-200 text-base sm:text-xl leading-relaxed font-normal">
-                  Helping HNWIs and Family Offices navigate Source of Wealth checks
-                  with Tier-1 banks worldwide.
-                </p>
-                {lang === "bilingual" && (
-                  <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
-                    Помогаем HNWI и семейным офисам проходить проверки Source of Wealth
-                    в банках первого уровня по всему миру.
-                  </p>
-                )}
-              </div>
-
-              {/* Ключевые преимущества */}
+              {/* Key Trust Bullets */}
               <div className="grid sm:grid-cols-2 gap-3.5 text-sm text-slate-300 pt-1">
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-5 h-5 text-amber-400 shrink-0" />
@@ -377,19 +350,19 @@ export default function WealthComplianceLanding() {
                 </div>
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-5 h-5 text-amber-400 shrink-0" />
-                  <span>Онбординг в Tier-1 банках (Israel, EU, US)</span>
+                  <span>Tier-1 Bank Onboarding (Israel, EU, US)</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-5 h-5 text-amber-400 shrink-0" />
-                  <span>Локация: Tel Aviv, Israel + работа по всему миру</span>
+                  <span>Based in Tel Aviv, Israel • Global Reach</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-5 h-5 text-amber-400 shrink-0" />
-                  <span>Absolute Discretion (Строгая конфиденциальность)</span>
+                  <span>Built on Absolute Discretion & Strict NDA</span>
                 </div>
               </div>
 
-              {/* Кнопки призыва к действию (CTA) */}
+              {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-3">
                 <a
                   href={WHATSAPP_URL}
@@ -398,16 +371,7 @@ export default function WealthComplianceLanding() {
                   className="px-7 py-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm sm:text-base transition-all flex items-center justify-center gap-2.5 shadow-xl shadow-amber-500/20"
                 >
                   <MessageCircle className="w-5 h-5" />
-                  <div className="text-left">
-                    <span className="block leading-tight">
-                      Request a Confidential Consultation
-                    </span>
-                    {lang === "bilingual" && (
-                      <span className="block text-[11px] font-medium text-slate-900/80">
-                        Запросить конфиденциальную консультацию (WhatsApp)
-                      </span>
-                    )}
-                  </div>
+                  <span>Request a Confidential Consultation</span>
                   <ArrowRight className="w-4 h-4 ml-1 shrink-0" />
                 </a>
 
@@ -416,35 +380,35 @@ export default function WealthComplianceLanding() {
                   className="px-6 py-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-medium text-sm sm:text-base transition-all flex items-center justify-center gap-2"
                 >
                   <Mail className="w-5 h-5 text-amber-400" />
-                  <span>{lang === "en" ? "Contact via Form" : "Оставить заявку"}</span>
+                  <span>Inquire via Email</span>
                 </a>
               </div>
             </div>
 
-            {/* Правая колонка: Фото Ефима в костюме (Заглушка) */}
+            {/* Right Column: Efim's Portrait Placeholder */}
             <div className="lg:col-span-5">
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-gradient-to-b from-slate-800 to-slate-900 border border-white/15 shadow-2xl flex flex-col justify-between p-6">
-                  {/* Заглушка портрета */}
+                  {/* Photo Placeholder */}
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-slate-800/80 via-slate-900 to-slate-950">
                     <div className="w-24 h-24 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mb-4">
                       <ShieldCheck className="w-10 h-10 text-amber-400" />
                     </div>
                     <p className="text-white font-semibold text-lg">
-                      [Фото Ефима Либермана в костюме]
+                      [Portrait of Efim Liberman in a Suit]
                     </p>
                     <p className="text-slate-400 text-xs mt-2 max-w-xs">
-                      Деловой портрет для главного экрана (формат 4:5)
+                      Executive portrait placeholder (4:5 vertical aspect ratio)
                     </p>
                   </div>
 
-                  {/* Верхний бейдж (вместо лицензии адвоката) */}
+                  {/* Top Experience Badge */}
                   <div className="relative z-10 self-end px-3.5 py-1.5 rounded-lg bg-slate-950/85 backdrop-blur-md border border-amber-500/30 text-xs font-semibold text-amber-400 flex items-center gap-1.5 shadow-lg">
                     <Award className="w-4 h-4 text-amber-400" />
                     <span>17+ Years in Wealth Compliance</span>
                   </div>
 
-                  {/* Нижняя карточка на фото */}
+                  {/* Bottom Profile Card */}
                   <div className="relative z-10 p-5 rounded-xl bg-slate-950/90 backdrop-blur-md border border-white/10 space-y-2">
                     <div className="flex items-center justify-between gap-2">
                       <span className="font-bold text-white text-base">
@@ -464,7 +428,7 @@ export default function WealthComplianceLanding() {
             </div>
           </div>
 
-          {/* Полоса ключевых показателей */}
+          {/* Key Metrics Bar */}
           <div className="mt-16 pt-12 border-t border-white/10 grid grid-cols-2 lg:grid-cols-4 gap-8">
             {STATS.map((stat, idx) => (
               <div key={idx} className="space-y-1">
@@ -474,16 +438,14 @@ export default function WealthComplianceLanding() {
                 <div className="text-xs sm:text-sm font-medium text-white">
                   {stat.label}
                 </div>
-                {lang === "bilingual" && (
-                  <div className="text-xs text-slate-400">{stat.sub}</div>
-                )}
+                <div className="text-xs text-slate-400">{stat.sub}</div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ================= БЛОК 2. ПРОБЛЕМА (WHY DO BANKS FREEZE ACCOUNTS?) ================= */}
+      {/* ================= BLOCK 2. THE PROBLEM (WHY DO BANKS FREEZE ACCOUNTS?) ================= */}
       <section
         id="problem"
         className="py-20 lg:py-24 bg-slate-900 text-white border-b border-white/10 relative overflow-hidden"
@@ -493,67 +455,53 @@ export default function WealthComplianceLanding() {
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-500/15 text-amber-400 text-xs font-semibold uppercase tracking-wider">
                 <AlertTriangle className="w-4 h-4" />
-                <span>The Core Challenge • Главный риск для капитала</span>
+                <span>The Core Challenge</span>
               </div>
 
-              <div className="space-y-2">
-                <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
-                  Why do banks freeze accounts?
-                </h2>
-                {lang === "bilingual" && (
-                  <p className="text-xl text-amber-400 font-medium">
-                    Почему банки замораживают счета?
-                  </p>
-                )}
-              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
+                Why do banks freeze accounts?
+              </h2>
 
-              <div className="space-y-4 p-6 sm:p-8 rounded-2xl bg-slate-950/80 border border-white/10 shadow-xl">
-                <p className="text-lg sm:text-xl text-white leading-relaxed font-medium">
+              <div className="p-6 sm:p-8 rounded-2xl bg-slate-950/80 border border-white/10 shadow-xl">
+                <p className="text-lg sm:text-xl text-slate-100 leading-relaxed font-normal">
                   “Banks don&apos;t reject wealth. They reject fragmented paper trails.
                   When international capital moves across borders, a missing document
                   or a poorly explained structure can trigger months of KYC delays or a
                   permanent account freeze.”
                 </p>
-                {lang === "bilingual" && (
-                  <p className="text-sm sm:text-base text-slate-300 leading-relaxed pt-4 border-t border-white/10">
-                    Банки не отвергают богатство. Они отвергают фрагментированные
-                    бумажные следы. Когда международный капитал пересекает границы,
-                    отсутствующий документ или плохо объяснённая структура могут вызвать
-                    месячные задержки KYC или постоянную заморозку счёта.
-                  </p>
-                )}
               </div>
             </div>
 
-            {/* Триггеры риска (Визуализация проблемы) */}
+            {/* Risk Triggers */}
             <div className="lg:col-span-5 space-y-4">
               <div className="p-5 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
                 <div className="text-amber-400 font-semibold text-sm">
-                  01. Fragmented Paper Trails (Разрозненные документы)
+                  01. Fragmented Paper Trails
                 </div>
-                <p className="text-xs sm:text-sm text-slate-300">
-                  Отсутствие единой логической связи между историческими сделками,
-                  налоговыми декларациями и текущим остатком на счёте.
+                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                  Disconnected historical records between past liquidity events, tax
+                  filings, and current account balances raise immediate AML flags.
                 </p>
               </div>
 
               <div className="p-5 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
                 <div className="text-amber-400 font-semibold text-sm">
-                  02. Unclear Corporate & Asset Structures
+                  02. Unexplained Multi-Jurisdictional Structures
                 </div>
-                <p className="text-xs sm:text-sm text-slate-300">
-                  Сложные международные структуры владения без понятного для
-                  европейского, американского или израильского банка комплаенс-меморандума.
+                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                  Complex international holding structures submitted without a clear,
+                  bank-ready compliance memorandum stall onboarding committees.
                 </p>
               </div>
 
               <div className="p-5 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
                 <div className="text-amber-400 font-semibold text-sm">
-                  03. Reactive vs. Pre-Banking Approach
+                  03. Reactive vs. Pre-Banking Strategy
                 </div>
-                <p className="text-xs sm:text-sm text-slate-300">
-                  Попытка собирать документы уже после блокировки перевода вместо
-                  упреждающего аудита (Pre-Banking SoW Audit) до отправки средств.
+                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                  Attempting to assemble evidentiary documents after a transfer is
+                  flagged, rather than conducting a proactive Source of Wealth audit in
+                  advance.
                 </p>
               </div>
             </div>
@@ -561,7 +509,7 @@ export default function WealthComplianceLanding() {
         </div>
       </section>
 
-      {/* ================= БЛОК 3. НАШИ УСЛУГИ (OUR EXPERTISE) ================= */}
+      {/* ================= BLOCK 3. OUR SERVICES (OUR EXPERTISE) ================= */}
       <section id="expertise" className="py-20 lg:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl space-y-3">
@@ -569,16 +517,11 @@ export default function WealthComplianceLanding() {
               Private Wealth & Compliance Solutions
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
-              Our Expertise{" "}
-              {lang === "bilingual" && (
-                <span className="text-slate-400 font-normal text-2xl sm:text-3xl">
-                  / Наша экспертиза
-                </span>
-              )}
+              Our Expertise
             </h2>
             <p className="text-slate-600 text-base sm:text-lg">
-              Комплексная подготовка капитала, документов и международных структур к
-              проверкам в банках первого уровня.
+              Comprehensive pre-banking compliance and strategic structuring tailored
+              for Tier-1 financial institutions.
             </p>
           </div>
 
@@ -601,23 +544,12 @@ export default function WealthComplianceLanding() {
                     </div>
 
                     <h3 className="text-xl font-bold text-slate-900 group-hover:text-white transition-colors">
-                      {service.titleEn}
+                      {service.title}
                     </h3>
-                    {lang === "bilingual" && (
-                      <p className="text-sm font-semibold text-amber-600 group-hover:text-amber-400 mt-1">
-                        {service.titleRu}
-                      </p>
-                    )}
 
-                    <p className="mt-4 text-sm text-slate-700 group-hover:text-slate-200 leading-relaxed font-medium transition-colors">
-                      {service.descEn}
+                    <p className="mt-4 text-sm sm:text-base text-slate-600 group-hover:text-slate-300 leading-relaxed transition-colors">
+                      {service.description}
                     </p>
-
-                    {lang === "bilingual" && (
-                      <p className="mt-2 text-xs sm:text-sm text-slate-500 group-hover:text-slate-400 leading-relaxed transition-colors">
-                        {service.descRu}
-                      </p>
-                    )}
 
                     <ul className="mt-6 space-y-2.5 border-t border-slate-200/80 group-hover:border-white/10 pt-5">
                       {service.bullets.map((b, i) => (
@@ -634,7 +566,7 @@ export default function WealthComplianceLanding() {
 
                   <div className="mt-8 pt-4 border-t border-slate-200/80 group-hover:border-white/10 flex items-center justify-between">
                     <span className="text-xs uppercase tracking-wider text-slate-400 font-medium">
-                      Individual Scope
+                      Bespoke Engagement
                     </span>
                     <a
                       href={WHATSAPP_URL}
@@ -642,7 +574,7 @@ export default function WealthComplianceLanding() {
                       rel="noreferrer"
                       className="text-sm font-semibold text-amber-600 group-hover:text-amber-400 flex items-center gap-1.5"
                     >
-                      <span>Discuss Case</span>
+                      <span>Inquire Now</span>
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                   </div>
@@ -653,7 +585,7 @@ export default function WealthComplianceLanding() {
         </div>
       </section>
 
-      {/* ================= КЕЙСЫ И ПРАКТИКА (CASES) ================= */}
+      {/* ================= CASE STUDIES (CASES) ================= */}
       <section id="cases" className="py-20 lg:py-28 bg-slate-100 border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
@@ -662,15 +594,15 @@ export default function WealthComplianceLanding() {
                 Proven Track Record
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
-                Примеры решённых комплаенс-кейсов
+                Selected Compliance Mandates
               </h2>
               <p className="text-slate-600 text-base">
-                Все детали и юрисдикции анонимизированы в соответствии с политикой
-                строгой конфиденциальности (Strict Discretion).
+                All client details and specific institutions are anonymized in
+                accordance with our strict confidentiality policy.
               </p>
             </div>
 
-            {/* Фильтр по категориям */}
+            {/* Category Filter */}
             <div className="flex flex-wrap gap-2">
               {categories.map((cat) => (
                 <button
@@ -712,7 +644,7 @@ export default function WealthComplianceLanding() {
                   <div className="mt-5 space-y-4 text-sm">
                     <div>
                       <span className="font-semibold text-slate-900 block">
-                        Запрос / Проблема:
+                        The Challenge:
                       </span>
                       <p className="text-slate-600 mt-0.5 leading-relaxed">
                         {item.problem}
@@ -720,7 +652,7 @@ export default function WealthComplianceLanding() {
                     </div>
                     <div>
                       <span className="font-semibold text-slate-900 block">
-                        Решение комплаенс-задачи:
+                        Compliance Strategy:
                       </span>
                       <p className="text-slate-600 mt-0.5 leading-relaxed">
                         {item.solution}
@@ -731,7 +663,7 @@ export default function WealthComplianceLanding() {
 
                 <div className="mt-6 pt-4 border-t border-slate-100 bg-emerald-50/70 -mx-7 -mb-7 p-6 rounded-b-2xl">
                   <span className="text-xs font-bold uppercase tracking-wider text-emerald-700 block mb-1">
-                    Результат:
+                    Outcome:
                   </span>
                   <p className="text-sm font-medium text-slate-900">{item.result}</p>
                 </div>
@@ -741,21 +673,21 @@ export default function WealthComplianceLanding() {
         </div>
       </section>
 
-      {/* ================= БЛОК 4. ОБО МНЕ (ABOUT EFIM LIBERMAN) ================= */}
+      {/* ================= BLOCK 4. ABOUT (ABOUT EFIM LIBERMAN) ================= */}
       <section id="about" className="py-20 lg:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-12 gap-12 items-center">
-            {/* Левая колонка: Второе фото в деловом стиле + регалии */}
+            {/* Left Column: Second Photo Placeholder & Highlights */}
             <div className="lg:col-span-5">
               <div className="rounded-2xl bg-slate-950 text-white p-8 border border-slate-800 space-y-6 relative overflow-hidden shadow-xl">
-                {/* Заглушка второго фото */}
+                {/* Second Photo Placeholder */}
                 <div className="aspect-[16/11] rounded-xl bg-slate-900 border border-white/10 flex flex-col items-center justify-center p-6 text-center">
                   <Award className="w-10 h-10 text-amber-400 mb-3" />
                   <p className="text-sm font-semibold text-white">
-                    [Фото Ефима Либермана в деловом стиле]
+                    [Executive Lifestyle Portrait of Efim Liberman]
                   </p>
                   <p className="text-xs text-slate-400 mt-1">
-                    Менее формальный деловой портрет в интерьере офиса
+                    Business casual / office environment portrait placeholder
                   </p>
                 </div>
 
@@ -772,47 +704,31 @@ export default function WealthComplianceLanding() {
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle2 className="w-5 h-5 text-amber-400 shrink-0" />
-                    <span>Based in Tel Aviv, Israel</span>
+                    <span>Headquartered in Tel Aviv, Israel</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Правая колонка: Текст About Efim Liberman */}
+            {/* Right Column: About Efim Liberman Bio */}
             <div className="lg:col-span-7 space-y-6">
               <span className="text-amber-600 font-semibold text-sm uppercase tracking-wider">
                 Executive Profile & Discretion
               </span>
 
               <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
-                About Efim Liberman{" "}
-                {lang === "bilingual" && (
-                  <span className="text-slate-400 font-normal text-2xl sm:text-3xl block sm:inline">
-                    / Об Ефиме Либермане
-                  </span>
-                )}
+                About Efim Liberman
               </h2>
 
-              <div className="p-6 sm:p-7 rounded-2xl bg-slate-50 border border-slate-200 space-y-4">
-                <p className="text-slate-900 text-base sm:text-lg leading-relaxed font-medium">
-                  “With over 17 years of executive experience in Wealth Compliance, I
+              <div className="p-6 sm:p-8 rounded-2xl bg-slate-50 border border-slate-200">
+                <p className="text-slate-800 text-base sm:text-lg leading-relaxed font-normal">
+                  With over 17 years of executive experience in Wealth Compliance, I
                   have dedicated my career to bridging the gap between complex
                   international capital and strict regulatory frameworks. I specialize
                   in assisting clients across Israel, Europe, the US, and the CIS
                   region. My approach is built on absolute discretion and deep expertise
-                  in banking risk management.”
+                  in banking risk management.
                 </p>
-
-                {lang === "bilingual" && (
-                  <p className="text-slate-600 text-sm sm:text-base leading-relaxed pt-4 border-t border-slate-200">
-                    Имея более 17 лет опыта руководящей работы в сфере Wealth
-                    Compliance, я посвятил свою карьеру преодолению разрыва между
-                    сложным международным капиталом и строгими регуляторными рамками. Я
-                    специализируюсь на помощи клиентам в Израиле, Европе, США и регионе
-                    СНГ. Мой подход основан на абсолютной конфиденциальности и глубокой
-                    экспертизе в управлении банковскими рисками.
-                  </p>
-                )}
               </div>
 
               <div className="grid sm:grid-cols-2 gap-5 pt-2">
@@ -821,19 +737,19 @@ export default function WealthComplianceLanding() {
                     <Lock className="w-4 h-4 text-amber-500" />
                     <span>Absolute Discretion</span>
                   </h4>
-                  <p className="text-sm text-slate-600 mt-1.5">
-                    Каждое обращение рассматривается лично и конфиденциально. Мы
-                    защищаем приватность семейного и корпоративного капитала.
+                  <p className="text-sm text-slate-600 mt-1.5 leading-relaxed">
+                    Every engagement is handled personally and confidentially,
+                    safeguarding sensitive family and corporate wealth data.
                   </p>
                 </div>
                 <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-sm">
                   <h4 className="font-bold text-slate-900 flex items-center gap-2">
                     <ShieldCheck className="w-4 h-4 text-amber-500" />
-                    <span>Взгляд изнутри банка</span>
+                    <span>Insider Risk Perspective</span>
                   </h4>
-                  <p className="text-sm text-slate-600 mt-1.5">
-                    Понимание того, как именно мыслят комплаенс-комитеты Tier-1 банков
-                    и какие формулировки снимают их вопросы.
+                  <p className="text-sm text-slate-600 mt-1.5 leading-relaxed">
+                    Deep understanding of how Tier-1 bank compliance committees evaluate
+                    risk and what documentation satisfies their scrutiny.
                   </p>
                 </div>
               </div>
@@ -842,15 +758,15 @@ export default function WealthComplianceLanding() {
         </div>
       </section>
 
-      {/* ================= ЭТАПЫ РАБОТЫ (PROCESS) ================= */}
+      {/* ================= WORKFLOW & METHODOLOGY (PROCESS) ================= */}
       <section id="process" className="py-20 lg:py-24 bg-slate-950 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl space-y-3">
             <span className="text-amber-400 font-semibold text-sm uppercase tracking-wider">
-              Workflow & Methodology
+              Advisory Methodology
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
-              Как строится работа над вашим кейсом
+              How We Structure Your Case
             </h2>
           </div>
 
@@ -865,11 +781,9 @@ export default function WealthComplianceLanding() {
                     {s.num}
                   </span>
                   <h3 className="mt-4 text-lg font-bold text-white">{s.title}</h3>
-                  {lang === "bilingual" && (
-                    <p className="text-xs text-amber-400 font-medium mt-0.5">
-                      {s.subtitle}
-                    </p>
-                  )}
+                  <p className="text-xs text-amber-400 font-medium mt-0.5">
+                    {s.subtitle}
+                  </p>
                   <p className="mt-3 text-sm text-slate-300 leading-relaxed">{s.desc}</p>
                 </div>
               </div>
@@ -878,15 +792,15 @@ export default function WealthComplianceLanding() {
         </div>
       </section>
 
-      {/* ================= ЧАСТЫЕ ВОПРОСЫ (FAQ) ================= */}
+      {/* ================= FREQUENTLY ASKED QUESTIONS (FAQ) ================= */}
       <section id="faq" className="py-20 lg:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-3">
             <span className="text-amber-600 font-semibold text-sm uppercase tracking-wider">
-              FAQ • Частые вопросы
+              Frequently Asked Questions
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
-              Ответы на ключевые вопросы о банковском комплаенсе
+              Key Insights on Pre-Banking Compliance
             </h2>
           </div>
 
@@ -921,11 +835,11 @@ export default function WealthComplianceLanding() {
         </div>
       </section>
 
-      {/* ================= БЛОК 5. КОНТАКТЫ (LET'S DISCUSS YOUR CASE) ================= */}
+      {/* ================= BLOCK 5. CONTACT & FOOTER (LET'S DISCUSS YOUR CASE) ================= */}
       <section id="contact" className="py-20 lg:py-28 bg-slate-950 text-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-12 gap-12 items-start">
-            {/* Левая часть: Прямые кнопки WhatsApp / Email */}
+            {/* Left Column: Direct WhatsApp & Email Buttons */}
             <div className="lg:col-span-5 space-y-8">
               <div className="space-y-3">
                 <span className="text-amber-400 font-semibold text-sm uppercase tracking-wider">
@@ -934,14 +848,9 @@ export default function WealthComplianceLanding() {
                 <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
                   Let&apos;s discuss your case
                 </h2>
-                {lang === "bilingual" && (
-                  <p className="text-xl text-amber-400 font-medium">
-                    Давайте обсудим ваш случай
-                  </p>
-                )}
                 <p className="text-slate-300 text-base leading-relaxed pt-2">
-                  Свяжитесь напрямую через WhatsApp или Email для конфиденциального
-                  разбора вашей ситуации, либо оставьте запрос через форму.
+                  Reach out directly via WhatsApp or Email to schedule a private
+                  consultation, or submit your inquiry through the confidential form.
                 </p>
               </div>
 
@@ -955,7 +864,7 @@ export default function WealthComplianceLanding() {
                   <div className="flex items-center gap-3.5">
                     <MessageCircle className="w-6 h-6 text-emerald-400" />
                     <div>
-                      <span className="block text-base">WhatsApp Consultation</span>
+                      <span className="block text-base">WhatsApp</span>
                       <span className="block text-xs text-emerald-300 font-normal">
                         Request a Confidential Consultation
                       </span>
@@ -971,9 +880,9 @@ export default function WealthComplianceLanding() {
                   <div className="flex items-center gap-3.5">
                     <Mail className="w-6 h-6 text-amber-400" />
                     <div>
-                      <span className="block text-base">Direct Email</span>
+                      <span className="block text-base">Email</span>
                       <span className="block text-xs text-slate-400 font-normal">
-                        Send case overview via email
+                        Send a direct confidential inquiry
                       </span>
                     </div>
                   </div>
@@ -985,7 +894,7 @@ export default function WealthComplianceLanding() {
                   <div className="text-sm">
                     <span className="block font-semibold text-white">Location:</span>
                     <span className="text-slate-300">
-                      Tel Aviv, Israel • Serving clients across Israel, Europe, the US,
+                      Tel Aviv, Israel • Advising clients across Israel, Europe, the US,
                       and the CIS region.
                     </span>
                   </div>
@@ -993,7 +902,7 @@ export default function WealthComplianceLanding() {
               </div>
             </div>
 
-            {/* Правая часть: Форма обратной связи */}
+            {/* Right Column: Confidential Consultation Form */}
             <div className="lg:col-span-7">
               <div className="rounded-2xl bg-white text-slate-900 p-8 sm:p-10 shadow-2xl">
                 {formSubmitted ? (
@@ -1002,17 +911,17 @@ export default function WealthComplianceLanding() {
                       <CheckCircle2 className="w-9 h-9" />
                     </div>
                     <h3 className="text-2xl font-bold text-slate-900">
-                      Request Received / Запрос получен
+                      Confidential Inquiry Received
                     </h3>
                     <p className="text-slate-600 max-w-md mx-auto">
-                      Благодарю за обращение. Я лично ознакомлюсь с вашим запросом и
-                      свяжусь с вами конфиденциально в ближайшее время.
+                      Thank you for reaching out. Efim Liberman will personally review
+                      your request and respond shortly.
                     </p>
                     <button
                       onClick={() => setFormSubmitted(false)}
                       className="mt-4 px-6 py-2.5 rounded-lg bg-slate-900 text-white text-sm font-medium hover:bg-slate-800"
                     >
-                      Отправить ещё один запрос
+                      Submit Another Inquiry
                     </button>
                   </div>
                 ) : (
@@ -1022,20 +931,19 @@ export default function WealthComplianceLanding() {
                         Request a Confidential Consultation
                       </h3>
                       <p className="text-sm text-slate-500 mt-1">
-                        Запрос на конфиденциальную консультацию по комплаенсу и
-                        структурированию капитала
+                        Private Wealth & Pre-Banking Compliance Advisory
                       </p>
                     </div>
 
                     <div className="grid sm:grid-cols-2 gap-5">
                       <div>
                         <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-2">
-                          Your Name / Ваше имя *
+                          Your Name *
                         </label>
                         <input
                           type="text"
                           required
-                          placeholder="Name"
+                          placeholder="Full Name"
                           value={formData.name}
                           onChange={(e) =>
                             setFormData({ ...formData, name: e.target.value })
@@ -1051,7 +959,7 @@ export default function WealthComplianceLanding() {
                         <input
                           type="text"
                           required
-                          placeholder="+972 ... / email@domain.com"
+                          placeholder="+972 ... or email@domain.com"
                           value={formData.contact}
                           onChange={(e) =>
                             setFormData({ ...formData, contact: e.target.value })
@@ -1063,7 +971,7 @@ export default function WealthComplianceLanding() {
 
                     <div>
                       <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-2">
-                        Service / Направление запроса
+                        Area of Expertise
                       </label>
                       <select
                         value={formData.topic}
@@ -1072,24 +980,16 @@ export default function WealthComplianceLanding() {
                         }
                         className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-amber-500 focus:ring-2 focus:ring-amber-500/20 outline-none transition-all text-sm bg-white"
                       >
-                        <option>
-                          Source of Wealth Audit (Аудит происхождения средств)
-                        </option>
-                        <option>
-                          Compliance Dossier Preparation (Подготовка комплаенс-досье)
-                        </option>
-                        <option>
-                          Cross-Border Advisory (Международные сделки и структуры)
-                        </option>
-                        <option>
-                          KYC Delay / Account Freeze Resolution
-                        </option>
+                        <option>Source of Wealth Audit</option>
+                        <option>Compliance Dossier Preparation</option>
+                        <option>Cross-Border Advisory</option>
+                        <option>KYC Delay / Account Freeze Resolution</option>
                       </select>
                     </div>
 
                     <div>
                       <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-2">
-                        Brief Case Overview / Краткое описание задачи (Optional)
+                        Brief Case Overview (Optional)
                       </label>
                       <textarea
                         rows={3}
@@ -1121,5 +1021,16 @@ export default function WealthComplianceLanding() {
         </div>
       </section>
 
-      {/* ================= ПОДВАЛ (FOOTER) ================= */}
-      <footer className="py-10 bg-slate
+      {/* ================= FOOTER ================= */}
+      <footer className="py-10 bg-slate-950 border-t border-white/10 text-slate-400 text-xs sm:text-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="text-slate-300 font-medium">
+            ©️ 2026 Efim Liberman. Private Wealth & Compliance Advisory. All rights
+            reserved.
+          </div>
+          <div className="text-slate-500">Tel Aviv, Israel • Global Advisory</div>
+        </div>
+      </footer>
+    </div>
+  );
+}
