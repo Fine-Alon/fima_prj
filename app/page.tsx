@@ -678,25 +678,7 @@ export default function WealthComplianceLanding() {
             <div className="lg:col-span-5">
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-gradient-to-b from-slate-800 to-slate-900 border border-white/15 shadow-2xl flex flex-col justify-between p-6">
-                  {/* 
-                    КАК ВСТАВИТЬ РЕАЛЬНОЕ ФОТО 1:
-                    1. Положи файл efim-suit.jpg в папку public/
-                    2. Раскомментируй строчку <img ... /> ниже и удали блок-заглушку под ней
-                  */}
                   <img src="/efim-suit.jpg" alt="Efim Liberman" className="absolute inset-0 w-full h-full object-cover object-top" />
-
-                  {/* Блок-заглушка (удали его, когда раскомментируешь img выше) */}
-                  {/* <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-slate-800/80 via-slate-900 to-slate-950">
-                    <div className="w-24 h-24 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mb-4">
-                      <ShieldCheck className="w-10 h-10 text-amber-400" />
-                    </div>
-                    <p className="text-white font-semibold text-lg">
-                      [Portrait of Efim Liberman in a Suit]
-                    </p>
-                    <p className="text-slate-400 text-xs mt-2 max-w-xs">
-                      Place file as <code className="text-amber-400">public/efim-suit.jpg</code>
-                    </p>
-                  </div> */}
 
                   {/* Top Experience Badge */}
                   <div className="relative z-10 self-end px-3.5 py-1.5 rounded-lg bg-slate-950/85 backdrop-blur-md border border-amber-500/30 text-xs font-semibold text-amber-400 flex items-center gap-1.5 shadow-lg">
@@ -1025,21 +1007,17 @@ export default function WealthComplianceLanding() {
               <div className="rounded-2xl bg-slate-950 text-white p-8 border border-slate-800 space-y-6 relative overflow-hidden shadow-xl">
                 {/* Second Photo Container */}
                 <div className="relative aspect-[16/11] rounded-xl bg-slate-900 border border-white/10 overflow-hidden flex flex-col items-center justify-center p-6 text-center">
-                  {/* 
-                    КАК ВСТАВИТЬ РЕАЛЬНОЕ ФОТО 2:
-                    1. Положи файл efim-office.jpg в папку public/
-                    2. Раскомментируй строчку <img ... /> ниже и удали иконку с текстом под ней
-                  */}
-                  <img src="/efim-office2.jpg" alt="Efim Liberman Office" className="absolute inset-0 w-full h-full object-cover" />
+                
+                  <img src="/efim-office.jpg" alt="Efim Liberman Office" className="absolute inset-0 w-full h-full object-cover" />
 
                   {/* <Award className="w-10 h-10 text-amber-400 mb-3" />
                   <p className="text-sm font-semibold text-white">
                     [Executive Lifestyle Portrait of Efim Liberman]
-                  </p> */}
+                  </p>
                   <p className="text-xs text-slate-400 mt-1">
                     Place file as{" "}
-                    <code className="text-amber-400">public/efim-office2.jpg</code>
-                  </p>
+                    <code className="text-amber-400">public/efim-office.jpg</code>
+                  </p> */}
                 </div>
 
                 <div className="space-y-3.5 pt-2 text-sm">
