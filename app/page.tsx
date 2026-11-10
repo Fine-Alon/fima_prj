@@ -25,7 +25,7 @@ import {
 // --- CONTACT LINKS ---
 const WHATSAPP_URL =
   "https://wa.me/972552924282?text=Hello%20Efim,%20I%20would%20like%20to%20request%20a%20confidential%20consultation.";
-const EMAIL_ADDRESS = "mailto:lazarhasid@gmail.com";
+const EMAIL_ADDRESS = "mailto:contact@globalwealthcompliance.com";
 const TELEGRAM_URL =
   "https://t.me/tir9999999?text=Hello%20Efim,%20I%20would%20like%20to%20request%20a%20confidential%20consultation.";
 
